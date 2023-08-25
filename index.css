@@ -1,22 +1,22 @@
 body {
-    margin: 0;
-    background: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBhc3N3b3JkfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60");
-    background-size: cover;
+  margin: 0;
+  background: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBhc3N3b3JkfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60");
+  background-size: cover;
 }
 .all-content{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: start;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: start;
 }
 
 h1{
-    width: 354px;
+  width: 500px;
 height: 80px;
 color: #FFFFFF;
 margin-left: 52px;
 font-family: Karla;
-font-size: 40px;
+font-size: 30px;
 font-weight: 800;
 line-height: 40px;
 letter-spacing: -0.025em;
@@ -28,17 +28,17 @@ font-weight: 800;
 line-height: 40px;
 letter-spacing: -0.025em;
 text-align: left;
-  text-shadow: 5px 0px 5px black;
-
+text-shadow: 5px 0px 5px black;
+margin-top: 50px;
 
 
 }
 #header-random-pass{
-  color:  #4ADF86;
-  text-shadow: 2px 0px 5px black;
+color:  #4ADF86;
+text-shadow: 2px 0px 5px black;
 }
 h3{
-    width: 372px;
+  width: 450px;
 height: 28px;
 /* margin-top: 205px;*/
 margin-left: 52px; 
@@ -49,19 +49,19 @@ line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
 color: yellow;
-  text-shadow: 5px 0px 5px black;
+text-shadow: 5px 0px 5px black;
 
 }
 .passwords{
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-   margin-left: 40px;
-    width: 446.0000000000017px;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+ margin-left: 40px;
+  width: 446.0000000000017px;
+  
 }
 #gen-btn{
-    width: Hug (191px);
+  width: Hug (191px);
 height: Hug (42px);
 /* margin-top: 284px; */
 margin-left: 52px;
@@ -74,7 +74,7 @@ box-shadow: 0px 1px 2px 0px #0000000D;
 }
 
 #gen-text{
-    width: 159px;
+  width: 159px;
 height: 24px;
 font-family: Inter;
 font-size: 16px;
@@ -83,11 +83,11 @@ line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
-  text-shadow: 5px 0px 9px black;
+text-shadow: 5px 0px 9px black;
 
 }
 #section-break{
-    width: 419.0000000000017px;
+  width: 419.0000000000017px;
 /* margin-top: 361px; */
 margin-left: 52px;
 border: 1px;
@@ -97,8 +97,8 @@ border: 1.5px solid #2F3E53;
 #pass-1{
 height: 39px;
 border-radius: 6px;
- background: #273549;
- color: #55F991;
+background: #273549;
+color: #55F991;
 font-family: Inter;
 font-size: 18px;
 font-weight: 500;
@@ -115,8 +115,8 @@ height: 39px;
 width: 199px;
 
 border-radius: 6px;
- background: #273549;
- color: #55F991;
+background: #273549;
+color: #55F991;
 font-family: Inter;
 font-size: 18px;
 font-weight: 500;
@@ -126,22 +126,87 @@ text-align: center;
 border: 1.5px dotted #55F991;
 padding-top: 12px;
 }
+#copy-pass-btn{
+   width: Hug (191px);
+height: Hug (42px);
+/* margin-top: 284px; */
+margin-left: 52px;
+padding: 9px 17px 9px 15px;
+border: 1px solid #4ADF86;
+border-radius: 6px;
+background: black;
+box-shadow: 0px 1px 2px 0px #0000000D;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+text-shadow: -1px -1px 7px #4ADF86;
+margin-bottom: 100px;
+}
+#stored-passwords{
+  
+  width: 446.0000000000017px;
+}
+#pass-opt-1{
+  margin-left: 52px;
+  height: 39px;
+border-radius: 9px;
+background: linear-gradient(black, darkgrey, lightgray);
+color: #55F991;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+width: 199px;
+border: 1.5px solid black;
+padding-top: 12px;
+}
+#pass-opt-2{
+  height: 39px;
+width: 199px;
+  margin-left: 52px;
+
+border-radius: 9px;
+background: linear-gradient(black, darkgrey, lightgray);
+color: #55F991;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+border: 1.5px solid black;
+
+padding-top: 12px;
+}
+#pass1-hidden{
+  display: none;
+}
+#pass2-hidden{
+  display: none;
+}
 #credits{
- color: #55F991;
+color: #55F991;
 font-family: Inter;
 font-size: 13px;
 font-weight: 500;
 text-align: center;
-margin-top: 290px;
-  text-shadow: 5px 0px 5px black;
+margin-top: 250px;
+text-shadow: 5px 0px 5px black;
 
 }
 #hint{
-     color: #55F991;
+   color: #55F991;
 font-family: Inter;
 font-size: 11px;
 font-weight: 500;
 text-align: center;
-  text-shadow: 5px 0px 5px black;
+margin-top: 10px;
+text-shadow: 5px 0px 5px black;
 
 }
